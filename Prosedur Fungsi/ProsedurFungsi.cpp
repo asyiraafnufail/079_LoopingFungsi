@@ -31,7 +31,6 @@ int TotalHarga(){
 }
 
 void display(){
-    cout << "Nama : " << nama << endl;
     cout << "Total harganya : " << TotalHarga() << endl; 
 }
 
