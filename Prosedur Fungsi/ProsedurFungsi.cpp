@@ -36,6 +36,11 @@ void display(){
 }
 
 int main (){
+    char pilihan;
+    do{
     input();
     display();
+    cout << "Apakah ingin beli lagi pak bos?";
+    cin >> pilihan;
+    }while(pilihan == 'y' || pilihan == 'Y');
 }
