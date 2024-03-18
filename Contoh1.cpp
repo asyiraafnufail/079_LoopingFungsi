@@ -4,6 +4,7 @@ using namespace std;
 int main()
 {
     int i;
+    int arr[5];
 
     for (i = 0; 1 < 5; i++)
     {
