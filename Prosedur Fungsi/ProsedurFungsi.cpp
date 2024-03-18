@@ -7,22 +7,22 @@ int hXpander = 360, hAlphard = 1200, hZenix = 626, hReborn = 420, hLexus = 3400;
 
 
 void input(){
-    cout << "Nama Pembeli :";
+    cout << "Nama Pembeli : ";
     cin >> nama;
 
-    cout << "Jumlah Xpander :"; 
+    cout << "Jumlah Xpander : "; 
     cin >> nXpander;
     
-    cout << "Jumlah Alphard :";
+    cout << "Jumlah Alphard : ";
     cin >> nAlphard;
 
-    cout << "Jumlah Zenix :";
+    cout << "Jumlah Zenix : ";
     cin >> nZenix;
 
-    cout << "Jumlah Reborn :";
+    cout << "Jumlah Reborn : ";
     cin >> nReborn;
 
-    cout << "Jumlah Lexus :";
+    cout << "Jumlah Lexus : ";
     cin >> nLexus;
 }
 
@@ -31,7 +31,8 @@ int TotalHarga(){
 }
 
 void display(){
-    cout << "Total harganya :" << TotalHarga() << endl; 
+    cout << "Nama : " << nama << endl;
+    cout << "Total harganya : " << TotalHarga() << endl; 
 }
 
 int main (){
